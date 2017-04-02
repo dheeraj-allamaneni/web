@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+	<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="../pat_style/homeStyle.css">
+	<title>IM HOME</title>
+</head>
+<body>
+<!-- Uses a header that scrolls with the text, rather than staying
+  locked at the top -->
+<div class="mdl-layout mdl-js-layout">
+  <header class="mdl-layout__header mdl-layout__header--scroll">
+    <div id="navHome" class="mdl-layout__header-row">
+      <!-- Title -->
+      <span class="mdl-layout-title">MediTrack | Home</span>
+      <!-- Add spacer, to align navigation to the right -->
+      <div class="mdl-layout-spacer"></div>
+      <!-- Navigation -->
+      <button id="buttonout" onclick="logout()" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
+		  Sign Out<i id="iconout" class="material-icons">account_circle</i>
+		</button>
+    </div>
+  </header>
+  <div class="mdl-layout__drawer">
+    <span id="userName" class="mdl-layout-title">User Name</span>
+    <nav class="mdl-navigation">
+      <a class="mdl-navigation__link" href="../pat_html/home.html">
+      <i id="iconNav" class="material-icons">bubble_chart</i>Medications</a>
+      <a class="mdl-navigation__link" href="../pat_html/home.html">
+      <i id="iconNav" class="material-icons">history</i>History</a>
+      <a class="mdl-navigation__link" href="../html/nearby.html">
+      <i id="iconNav" class="material-icons">local_hospital</i>Nearby Hospitals</a>
+      <a class="mdl-navigation__link" href="emergency.html">
+      <i id="iconNav" class="material-icons">add_alert</i>Emergency</a>
+    </nav>
+  </div>
+  <main class="mdl-layout__content">
+    <div class="page-content"> <table id="HosDetails">
+        <thead>
+          <tr>
+            <td><strong>Details Of The Hospital</strong></td>
+          </tr>
+        </thead>
+        <tbody id="HosBody">
+          
+
+        </tbody>
+
+      </table>
+
+      <table id="MedDetails">
+        <thead>
+          <tr>
+            <td><strong>Medicine Name</strong></td>
+            <td><strong>Dosage</strong></td>
+            <td><strong>Timing</strong></td>
+          </tr>
+
+        </thead>
+        <tbody id="MedBody">
+          
+
+        </tbody>
+
+      </table></div>
+  </main>
+</div>
+
+<!-- Colored raised button -->
+ <script src= "https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://www.gstatic.com/firebasejs/3.7.2/firebase.js"></script>
+<script src= "../pat_back/home.js"></script>
+</body>
+</html>
