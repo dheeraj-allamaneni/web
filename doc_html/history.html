@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+ 	<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,700" rel="stylesheet">
+  	<script src="https://use.fontawesome.com/939e9dd52c.js"></script>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+	<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="../doc_style/history.css">
+	<title>HISTORY</title>
+	<title>
+		
+	</title>
+</head>
+<body>
+<div class="mdl-layout mdl-js-layout">
+  <header class="mdl-layout__header mdl-layout__header--scroll">
+    <div id="navHome" class="mdl-layout__header-row">
+      <!-- Title -->
+      <span class="mdl-layout-title">MediTrack | History</span>
+      <!-- Add spacer, to align navigation to the right -->
+      <div class="mdl-layout-spacer"></div>
+      <!-- Simple Textfield -->
+      
+
+      <!-- Navigation -->
+      <button id="buttonout" onclick="logout()" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
+		  Sign Out<i id="iconout" class="material-icons">account_circle</i>
+		</button>
+    </div>
+  </header>
+  <div class="mdl-layout__drawer">
+    <span id="userName" class="mdl-layout-title">Doctor Name</span>
+    <nav class="mdl-navigation">
+      <a class="mdl-navigation__link" href="home.html">
+      <i id="iconNav" class="material-icons">bubble_chart</i>Current Patient</a>
+      <a class="mdl-navigation__link" href="">
+      <i id="iconNav" class="material-icons">history</i>Previous Patients</a>
+      <a class="mdl-navigation__link" href="">
+      <i id="iconNav" class="material-icons">add_alert</i>Emergency</a>
+    </nav>
+  </div>
+
+
+  		
+
+  
+  <div class="mainDiv" align="left">
+
+
+  	<table>
+  	<thead id="tableDoctorName">
+          <tr>
+      <td><strong>Hospital Name</strong></td>
+      <td><strong>Doctor Name</strong></td>
+      <td><strong>Diagnosis</strong></td>
+      <td><strong>Date</strong></td>
+      </tr>
+  		
+  	</thead>
+  	<tbody id="tableDoctorBody">
+        <tr>
+      <td><strong>Medicine Name</strong></td>
+      <td><strong>Dosage</strong></td>
+      <td><strong>Timing</strong></td>
+      </tr>
+  		
+  	</tbody>
+
+  </table>
+			
+	</div>
+
+
+
+<!-- SCRIPTSSSS -->
+ <script src= "https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://www.gstatic.com/firebasejs/3.7.2/firebase.js"></script>
+<script src= "../doc_back/history.js"></script>
+</body>
+</html>
