@@ -1,0 +1,66 @@
+body {
+	background:#4DB6AC;
+	
+	background-position: -20% 20%;
+	color: #333;
+	font-size: 14px;
+	font-family: 'Raleway', sans-serif;
+	padding: 0;
+	maring: 0;
+}
+
+* {
+	box-sizing: border-box;
+	font-family: 'Raleway', sans-serif;
+	margin: 0;
+	font-size: 16px;
+	outline: none;
+}
+
+input, button {
+	border: 0;
+	padding: 10px;
+}
+
+.mainDiv {
+	background: #fff;
+	padding: 20px;
+	width: 360px;
+	margin: 0px auto;
+	margin-top: 160px;
+	box-shadow: 0 0 20px #333;
+}
+
+h1 {
+	font-weight: 300;
+	font-size: 24px;
+}
+
+textarea {
+	border: 0px;
+	background: #fff;
+	padding: 20px 0px;
+	outline: none;
+	width: 100%;
+	resize: none;
+}
+
+button {
+	background: #528bff;
+	color: #fff;
+	position: relative;
+	
+	line-height: 38px;
+	
+}
+
+#navbar{
+	position: fixed;
+	top: 0;
+	width: 100%
+}
+
+#loginProgress{
+	display: none;
+}
+

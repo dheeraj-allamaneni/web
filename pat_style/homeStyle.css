@@ -1,0 +1,52 @@
+#iconout{
+	margin-left: 8px;
+}
+
+#buttonout{
+	background-color: #006064;
+}
+
+#navHome{
+	background-color: #0097A7;
+}
+
+#iconNav{
+	margin-right: 8px;
+}
+
+#emergency{
+	margin-top: 20px;
+	margin-left: 40px; 
+	height: 300px;
+	width: 350px;
+}
+
+#emerbutt{
+	margin-top: 7px;
+	margin-left: 120px;
+}
+
+#imag{
+	float: left;
+	width: 40%;
+}
+
+#infoEmer{
+	float: right;
+	width: 60%;
+}
+
+#pEmer{
+	font-size: 20px;
+	margin-right: 30px;
+}
+
+#HosDetails{
+	float: left;
+	width: 30%;
+}
+
+#MedDetails{
+	float: right;
+	width: 70%;
+}
