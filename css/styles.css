@@ -1,13 +1,13 @@
 body {
   font-size: 16px;
   color: #fff;
-  background-color: #61122f;
+  background-color: #37474f;
   font-family: 'Oxygen', sans-serif;
 }
 
 /** HEADER **/
 #header-nav {
-  background-color: #f6b319;
+  background-color: #01579b;
   border-radius: 0;
   border: 0;
 }
@@ -25,7 +25,7 @@ body {
 
 .navbar-brand h1 { /* Restaurant name */
   font-family: 'Lora', serif;
-  color: #557c3e;
+  color: #bbdefb;
   font-size: 1.5em;
   text-transform: uppercase;
   font-weight: bold;
@@ -38,7 +38,7 @@ body {
   text-decoration: none;
 }
 .navbar-brand p { /* Kosher cert */
-  color: #000;
+  color: #bbdefb;
   text-transform: uppercase;
   font-size: .7em;
   margin-top: 15px;
@@ -51,11 +51,11 @@ body {
   margin-top: 10px;
 }
 #nav-list a {
-  color: #951C49;
+  color: #e3f2fd;
   text-align: center;
 }
 #nav-list a:hover {
-  background: #E7E7E7;
+  background: #9e9e9e;
 }
 #nav-list a span {
   font-size: 1.8em;
@@ -69,7 +69,7 @@ body {
   padding-bottom: 0;
 }
 #phone div { /* We Deliver */
-  color: #557c3e;
+  color: #bbdefb;
   text-align: right;
   padding-right: 15px;
 }
@@ -83,7 +83,7 @@ body {
 }
 /* END HEADER */
 .container .jumbotron {
-  box-shadow: 0 0 50px #3F0C1F;
+  box-shadow: 0 0 50px #000000;
   border: 2px solid #3F0C1F;
 }
 .container .bumbotron {
@@ -95,6 +95,7 @@ body {
   border: 2px solid #3F0C1F;
 }
 
+
 #menu-tile, #specials-tile, #map-tile {
   height: 250px;
   width: 100%;
@@ -102,6 +103,20 @@ body {
   position: relative;
   border: 2px solid #3F0C1F;
   overflow: hidden;
+}
+#hosp-tile{
+  color: #FFF;
+  font-size: 25px;
+  /*background: #BBDEFB; */
+  height: 40px;
+  width: 90%;
+  margin-bottom: 5px;
+  border: 2px solid #3F0C1F;
+}
+#hosp-tile:hover{
+  box-shadow: 0 1px 5px 1px #cccccc;
+  background: #90caf9;
+  color: #424242;
 }
 #menu-tile:hover, #specials-tile:hover, #map-tile:hover {
   box-shadow: 0 1px 5px 1px #cccccc;
@@ -298,4 +313,11 @@ background: url('../images/mann_original_1200.png') no-repeat;
     width: 280px;
     margin: 0 auto 15px;
   }
+}
+
+#detailsSy{
+  font-size: 30px;
+  color: #FFF;
+  margin-bottom: 20px;
+  margin-top: 15px;
 }
