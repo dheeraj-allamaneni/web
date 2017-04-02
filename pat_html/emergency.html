@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+	<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="../pat_style/homeStyle.css">
+	<title>Emergency</title>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+<div class="mdl-layout mdl-js-layout">
+  <header class="mdl-layout__header mdl-layout__header--scroll">
+    <div id="navHome" class="mdl-layout__header-row">
+      <!-- Title -->
+      <span class="mdl-layout-title">MediTrack | Emergency</span>
+      <!-- Add spacer, to align navigation to the right -->
+      <div class="mdl-layout-spacer"></div>
+      <!-- Navigation -->
+      <button id="buttonout" onclick="logout()" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
+		  Sign Out<i id="iconout" class="material-icons">account_circle</i>
+		</button>
+    </div>
+  </header>
+  <div class="mdl-layout__drawer">
+    <span id="userName" class="mdl-layout-title">User Name</span>
+    <nav class="mdl-navigation">
+      <a class="mdl-navigation__link" href="../pat_html/home.html">
+      <i id="iconNav" class="material-icons">bubble_chart</i>Medications</a>
+      <a class="mdl-navigation__link" href="../pat_html/home.html">
+      <i id="iconNav" class="material-icons">history</i>History</a>
+      <a class="mdl-navigation__link" href="../html/nearby.html">
+      <i id="iconNav" class="material-icons">local_hospital</i>Nearby Hospitals</a>
+      <a class="mdl-navigation__link" href="emergency.html">
+      <i id="iconNav" class="material-icons">add_alert</i>Emergency</a>
+    </nav>
+  </div>
+  <main class="mdl-layout__content">
+    <div id="imag" class="page-content">
+    	
+    <img id="emergency" src="../pat_Images/ambulance.png"></br>
+    <button id="emerbutt" onclick="emer()" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
+		  Call For Emergency
+		</button>
+
+
+    </div>
+    <div id="infoEmer">
+    	<h4>Call To    040-39565252    For Ambulance</h4></br></br>
+    	<h4>Call    106    For Ambulance</h4></br></br>
+    	<p id="pEmer">Things to Remember</br></br>
+
+1. Remain calm, use common sense, and provide aid. Take time to think before acting.</br>
+
+2. Always evacuate the building immediately when you hear an audible alarm or see a visible alarm, when directed by authorities, or when the building becomes life-threatening, e.g., smelling natural gas.</br>
+
+3. Proceed to the emergency gathering point for further instructions.</br>
+
+4. Do not use the telephone for reasons other than emergency purposes.</br>
+
+5. Do not enter elevators during an emergency. If stuck in an elevator do not attempt to force open stalled elevator doors, use the emergency phone to contact Public Safety.</br>
+
+6. Keep a flashlight handy if you are in an area that does not have emergency lighting or natural lighting.</br>
+
+7. Know the location of all marked exits from your working area.</br></p>
+    	
+    </div>
+  </main>
+</div>
+<script src="https://www.gstatic.com/firebasejs/3.7.2/firebase.js"></script>
+<script src= "../pat_back/home.js"></script>
+  </body>
+</html>
