@@ -1,0 +1,177 @@
+
+#iconout{
+	margin-left: 8px;
+}
+
+#buttonout{
+	background-color: #263238;
+}
+
+#navHome{
+	background-color: #607D8B;
+}
+
+#iconNav{
+	margin-right: 8px;
+}
+body {
+	background: #21252b;
+	color: #333;
+	font-size: 14px;
+	font-family: 'Raleway', sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+* {
+	box-sizing: border-box;
+	font-family: 'Raleway', sans-serif;
+	margin: 0;
+	font-size: 16px;
+	outline: none;
+}
+
+input, button {
+	border: 0;
+	padding: 10px;
+}
+
+.mainDiv {
+	background: #fff;
+	padding: 20px;
+	width: 1350px;
+	margin: 0px auto;
+	margin-top: 10px;
+	box-shadow: 0 0 20px #333;
+}
+
+h1 {
+	font-weight: 300;
+	font-size: 24px;
+}
+
+textarea {
+	border: 0px;
+	background: #fff;
+	padding: 20px 0px;
+	outline: none;
+	width: 100%;
+	resize: none;
+}
+
+
+
+#lefty{
+float:left;
+width:15%;
+overflow:hidden;
+}
+#righty{
+margin-top: 10px;
+margin-left: 10px;
+float:left;
+width:8%;
+overflow:hidden;
+} 
+
+#Details{
+	display: none;
+	float: right;
+}
+
+#recentHead{
+	
+	margin-bottom: 0px;
+}
+#leftFloat{
+	margin-top: 20px;
+	margin-left: 10px;
+	margin-bottom: 20px;
+	float: left;
+}
+
+.tdarrange{
+	margin-left: 25px;
+}
+
+#documentButton{
+	float: right;
+	margin-right: 30px;
+}
+
+#historyButton{
+	float: right;
+	margin-right: 30px;
+}
+
+#leftyHead{
+	float:left;
+	width:15%;
+	margin-right: 140px;
+	overflow:hidden;
+	margin-top: 0;
+}
+
+#tablestyle{
+	margin-left: 335px;
+	margin-top: 30px;
+}
+
+#prescribe{
+	margin-top: 0;
+}
+
+#leftsub1{
+	float: left;
+}
+
+#leftsub2{
+	float: left;
+}
+
+#searchbar{
+	position: relative;
+}
+
+#PatientImage{
+	margin-top: 20px;
+	margin-left: 30px;
+	float: right;
+}
+
+#PatientName{
+	position: relative;
+	float: right;
+}
+
+#PatientAge{
+	position: relative;
+	float: right;
+}
+
+#newpres{
+	float: right;
+	margin-right: 50px;
+}
+
+.hidden{
+	display: none;
+}
+
+#hidden{
+	display: none;
+}
+
+#AllDetails{
+	display: none;
+}
+
+#HosDetails{
+	float: left;
+	width: 30%;
+}
+
+#MedDetails{
+	float: right;
+	width: 70%;
+}
