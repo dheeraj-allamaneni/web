@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,700" rel="stylesheet">
+  <script src="https://use.fontawesome.com/939e9dd52c.js"></script>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+	<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="../doc_style/homeStyle.css">
+	<title>IM HOME</title>
+</head>
+<body>
+<!-- Uses a header that scrolls with the text, rather than staying
+  locked at the top -->
+<div class="mdl-layout mdl-js-layout">
+  <header class="mdl-layout__header mdl-layout__header--scroll">
+    <div id="navHome" class="mdl-layout__header-row">
+      <!-- Title -->
+      <span class="mdl-layout-title">MediTrack | Home</span>
+      <!-- Add spacer, to align navigation to the right -->
+      <div class="mdl-layout-spacer"></div>
+      <!-- Simple Textfield -->
+      
+
+      <!-- Navigation -->
+      <button id="buttonout" onclick="logout()" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
+		  Sign Out<i id="iconout" class="material-icons">account_circle</i>
+		</button>
+    </div>
+  </header>
+  <div class="mdl-layout__drawer">
+    <span id="userName" class="mdl-layout-title">Doctor Name</span>
+    <nav class="mdl-navigation">
+      <a class="mdl-navigation__link" href="">
+      <i id="iconNav" class="material-icons">bubble_chart</i>Current Patient</a>
+      <a class="mdl-navigation__link" href="">
+      <i id="iconNav" class="material-icons">history</i>Previous Patients</a>
+      <a class="mdl-navigation__link" href="">
+      <i id="iconNav" class="material-icons">add_alert</i>Emergency</a>
+    </nav>
+  </div>
+  <div id="searchbar" class="mainDiv" align="left">
+    <!-- Textfield with Floating Label -->
+          <!--Patient Details-->
+        <div id="Details">
+      <img id="PatientImage" src="" alt="Smiley face" height="128" width="128">
+      <h5 id="PatientName">Name Of The Patient</h5></br>
+      <h5 id="PatientAge">Age</h5>
+      </div>     
+        
+    <span><h4>Enter Patient's Aadhar Number</h4></span>
+    <form action="#">
+      <div id="lefty" class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+        <input class="mdl-textfield__input" type="text" id="PdharNumber">
+        <label class="mdl-textfield__label" for="sample3">Enter Aadhar Number</label>
+      </div>
+    </form>
+          <!-- Colored raised button -->
+      <button onclick="search()" id="righty" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
+        Search
+      </button>
+
+      </div>
+      <div id="AllDetails" class="mainDiv">
+            <button id="historyButton" onclick="historyPage()" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">View Full History
+      </button>
+      <button id="documentButton" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">View Documents
+      </button>
+            <!-- Colored raised button -->
+        <button onclick="newpresc()" id="newpres" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
+        New Prescription
+      </button></br></br></br>
+
+      <table id="HosDetails">
+        <thead>
+          <tr>
+            <td><strong>Details Of The Hospital</strong></td>
+          </tr>
+        </thead>
+        <tbody id="HosBody">
+          
+
+        </tbody>
+
+      </table>
+
+      <table id="MedDetails">
+        <thead>
+          <tr>
+            <td><strong>Medicine Name</strong></td>
+            <td><strong>Dosage</strong></td>
+            <td><strong>Timing</strong></td>
+          </tr>
+
+        </thead>
+        <tbody id="MedBody">
+          
+
+        </tbody>
+
+      </table>
+  <p id="demo"></p>
+      
+
+  </div>
+
+</div>
+
+<!-- Colored raised button -->
+<script src= "https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://www.gstatic.com/firebasejs/3.7.2/firebase.js"></script>
+<script src= "../doc_back/logreg.js"></script>
+</body>
+</html>

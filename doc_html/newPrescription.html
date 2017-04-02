@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,700" rel="stylesheet">
+  	<script src="https://use.fontawesome.com/939e9dd52c.js"></script>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+	<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="../doc_style/newPrescription.css">
+	<title>
+		
+	</title>
+</head>
+<body>
+<div class="mdl-layout mdl-js-layout">
+  <header class="mdl-layout__header mdl-layout__header--scroll">
+    <div id="navHome" class="mdl-layout__header-row">
+      <!-- Title -->
+      <span class="mdl-layout-title">MediTrack | Home</span>
+      <!-- Add spacer, to align navigation to the right -->
+      <div class="mdl-layout-spacer"></div>
+      <!-- Simple Textfield -->
+      
+
+      <!-- Navigation -->
+      <button id="buttonout" onclick="logout()" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
+		  Sign Out<i id="iconout" class="material-icons">account_circle</i>
+		</button>
+    </div>
+  </header>
+  <div class="mdl-layout__drawer">
+    <span id="userName" class="mdl-layout-title">Doctor Name</span>
+    <nav class="mdl-navigation">
+      <a class="mdl-navigation__link" href="../html/doc_index.html">
+      <i id="iconNav" class="material-icons">bubble_chart</i>Current Patient</a>
+      <a class="mdl-navigation__link" href="">
+      <i id="iconNav" class="material-icons">history</i>Previous Patients</a>
+      <a class="mdl-navigation__link" href="">
+      <i id="iconNav" class="material-icons">add_alert</i>Emergency</a>
+    </nav>
+  </div>
+<h3>Diagnosis</h3>
+  <form id="form" action="#">
+  <span class="mdl-textfield mdl-js-textfield">
+    <input class="mdl-textfield__input" type="text" id="diagnosis">
+    <label class="mdl-textfield__label" for="sample1">Diagnosis Category</label>
+  </span>
+</form>
+
+<h4>Prescribe New Medicines</h4>
+<div id="medform">
+	<h6 id="form">1)</h6>
+<!-- Simple Textfield -->
+<form id="form" action="#">
+  <span class="mdl-textfield mdl-js-textfield">
+    <input class="mdl-textfield__input" type="text" id="pres1">
+    <label class="mdl-textfield__label" for="sample1">Enter Medicine</label>
+  </span>
+</form>
+
+<!-- Simple Textfield -->
+<form id="form" action="#">
+  <span class="mdl-textfield mdl-js-textfield">
+    <input class="mdl-textfield__input" type="text" id="dos1">
+    <label class="mdl-textfield__label" for="sample1">Dosage</label>
+  </span>
+</form>
+
+<div class="checkboxes">
+<input type="checkbox" id="m1" name="vehicle" value="Bike">Morning
+<input type="checkbox" id="a1" name="vehicle" value="Bike">Afternoon
+<input type="checkbox" id="e1" name="vehicle" value="Bike">Evening
+<input type="checkbox" id="n1" name="vehicle" value="Bike">Night
+</div>
+</div>
+<div id="medform">
+	<h6 id="form2">2)</h6>
+<!-- Simple Textfield -->
+<form id="form2" action="#">
+  <span class="mdl-textfield mdl-js-textfield">
+    <input class="mdl-textfield__input" type="text" id="pres2">
+    <label class="mdl-textfield__label" for="sample1">Enter Medicine</label>
+  </span>
+</form>
+
+<!-- Simple Textfield -->
+<form id="form2" action="#">
+  <span class="mdl-textfield mdl-js-textfield">
+    <input class="mdl-textfield__input" type="text" id="dos2">
+    <label class="mdl-textfield__label" for="sample1">Dosage</label>
+  </span>
+</form>
+
+<div class="checkboxes">
+<input type="checkbox" id="m2" name="vehicle" value="Bike">Morning
+<input type="checkbox" id="a2" name="vehicle" value="Bike">Afternoon
+<input type="checkbox" id="e2" name="vehicle" value="Bike">Evening
+<input type="checkbox" id="n2" name="vehicle" value="Bike">Night
+</div>
+</div><div id="medform">
+	<h6 id="form3">3)</h6>
+<!-- Simple Textfield -->
+<form id="form3" action="#">
+  <span class="mdl-textfield mdl-js-textfield">
+    <input class="mdl-textfield__input" type="text" id="pres3">
+    <label class="mdl-textfield__label" for="sample1">Enter Medicine</label>
+  </span>
+</form>
+
+<!-- Simple Textfield -->
+<form id="form3" action="#">
+  <span class="mdl-textfield mdl-js-textfield">
+    <input class="mdl-textfield__input" type="text" id="dos3">
+    <label class="mdl-textfield__label" for="sample1">Dosage</label>
+  </span>
+</form>
+
+<div class="checkboxes">
+<input type="checkbox" id="m3" name="vehicle" value="Bike">Morning
+<input type="checkbox" id="a3" name="vehicle" value="Bike">Afternoon
+<input type="checkbox" id="e3" name="vehicle" value="Bike">Evening
+<input type="checkbox" id="n3" name="vehicle" value="Bike">Night
+</div>
+</div>
+<div id="medform">
+	<h6 id="form4">4)</h6>
+<!-- Simple Textfield -->
+<form id="form4" action="#">
+  <span class="mdl-textfield mdl-js-textfield">
+    <input class="mdl-textfield__input" type="text" id="pres4">
+    <label class="mdl-textfield__label" for="sample1">Enter Medicine</label>
+  </span>
+</form>
+
+<!-- Simple Textfield -->
+<form id="form4" action="#">
+  <span class="mdl-textfield mdl-js-textfield">
+    <input class="mdl-textfield__input" type="text" id="dos4">
+    <label class="mdl-textfield__label" for="sample1">Dosage</label>
+  </span>
+</form>
+
+<div class="checkboxes">
+<input type="checkbox" id="m4" name="vehicle" value="Bike">Morning
+<input type="checkbox" id="a4" name="vehicle" value="Bike">Afternoon
+<input type="checkbox" id="e4" name="vehicle" value="Bike">Evening
+<input type="checkbox" id="n4" name="vehicle" value="Bike">Night
+</div>
+</div>
+<div id="medform">
+	<h6 id="form5">5)</h6>
+<!-- Simple Textfield -->
+<form id="form5" action="#">
+  <span class="mdl-textfield mdl-js-textfield">
+    <input class="mdl-textfield__input" type="text" id="pres5">
+    <label class="mdl-textfield__label" for="sample1">Enter Medicine</label>
+  </span>
+</form>
+
+<form id="form5" action="#">
+  <span class="mdl-textfield mdl-js-textfield">
+    <input class="mdl-textfield__input" type="text" id="dos5">
+    <label class="mdl-textfield__label" for="sample1">Dosage</label>
+  </span>
+</form>
+
+<div class="checkboxes">
+<input type="checkbox" id="m5" name="vehicle" value="Bike">Morning
+<input type="checkbox" id="a5" name="vehicle" value="Bike">Afternoon
+<input type="checkbox" id="e5" name="vehicle" value="Bike">Evening
+<input type="checkbox" id="n5" name="vehicle" value="Bike">Night
+</div>
+</div>
+
+
+<
+
+
+
+
+<div id="finButtons">
+<!-- Colored raised button -->
+
+<!-- Colored raised button -->
+<button id="but" style="float: left;" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
+  Upload Documents
+</button>
+<!-- Colored raised button -->
+<button id="but" onclick="submitPres()" style="float: left;" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
+  Submit Prescription
+</button>
+<script src= "https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://www.gstatic.com/firebasejs/3.7.2/firebase.js"></script>
+<script src= "../doc_back/logreg.js"></script>
+
+
+</body>
+</html>
